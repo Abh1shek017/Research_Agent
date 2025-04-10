@@ -1,0 +1,11 @@
+form {
+    display: grid;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+input, select, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}

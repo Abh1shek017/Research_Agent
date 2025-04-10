@@ -1,120 +1,123 @@
 [
   {
-    "title": "CanvasVAE: Learning to Generate Vector Graphic Documents",
-    "summary": "Vector graphic documents present visual elements in a resolution free,\ncompact format and are often seen in creative applications. In this work, we\nattempt to learn a generative model of vector graphic documents. We define\nvector graphic documents by a multi-modal set of attributes associated to a\ncanvas and a sequence of visual elements such as shapes, images, or texts, and\ntrain variational auto-encoders to learn the representation of the documents.\nWe collect a new dataset of design templates from an online service that\nfeatures complete document structure including occluded elements. In\nexperiments, we show that our model, named CanvasVAE, constitutes a strong\nbaseline for generative modeling of vector graphic documents.",
-    "pdf_url": "http://arxiv.org/pdf/2108.01249v1",
-    "published": "2021-08-03",
+    "title": "Deep Learning in Deterministic Computational Mechanics",
+    "summary": "The rapid growth of deep learning research, including within the field of\ncomputational mechanics, has resulted in an extensive and diverse body of\nliterature. To help researchers identify key concepts and promising\nmethodologies within this field, we provide an overview of deep learning in\ndeterministic computational mechanics. Five main categories are identified and\nexplored: simulation substitution, simulation enhancement, discretizations as\nneural networks, generative approaches, and deep reinforcement learning. This\nreview focuses on deep learning methods rather than applications for\ncomputational mechanics, thereby enabling researchers to explore this field\nmore effectively. As such, the review is not necessarily aimed at researchers\nwith extensive knowledge of deep learning -- instead, the primary audience is\nresearchers at the verge of entering this field or those who attempt to gain an\noverview of deep learning in computational mechanics. The discussed concepts\nare, therefore, explained as simple as possible.",
+    "pdf_url": "http://arxiv.org/pdf/2309.15421v1",
+    "published": "2023-09-27",
     "authors": [
-      "Kota Yamaguchi"
+      "Leon Herrmann",
+      "Stefan Kollmannsberger"
     ],
-    "category": "cs.CV",
-    "pdf_path": "papers\\2108.01249v1.pdf",
-    "extracted_text": "CanvasVAE: Learning to Generate Vector Graphic Documents\nKota Yamaguchi\nCyberAgent\nyamaguchi kota@cyberagent.co.jp\nAbstract\nVector graphic documents present visual elements in a\nresolution free, compact format and are often seen in cre-\native applications. In this work, we attempt to learn a gen-\nerative model of vector graphic documents. We define vec-\ntor graphic documents by a multi-modal set of attributes\nassociated to a canvas and a sequence of visual elements\nsuch as shapes, images, or texts, and train variational auto-\nencoders to learn the representation of the documents. We\ncollect a new dataset of design templates from an online\nservice that features complete document structure includ-\ning occluded elements. In experiments, we show that our\nmodel, named CanvasVAE, constitutes a strong baseline for\ngenerative modeling of vector graphic documents.\n1. Introduction\nIn creative workflows, designers work on visual presen-\ntation via vector graphic formats. 2D vector graphics rep-\nr...",
+    "category": "cs.LG",
+    "pdf_path": "papers\\2309.15421v1.pdf",
+    "extracted_text": "Deep Learning in Deterministic Computational\nMechanics\nLeon Herrmann\u22171and Stefan Kollmannsberger1\n1Chair of Computational Modeling and Simulation, Technical University of Munich, School of Engineering and\nDesign, Arcisstrae 21, Munich, 80 333, Germany\nAbstract\nThe rapid growth of deep learning research, including within the field of computational mechanics,\nhas resulted in an extensive and diverse body of literature. To help researchers identify key concepts\nand promising methodologies within this field, we provide an overview of deep learning in deter-\nministic computational mechanics. Five main categories are identified and explored: simulation\nsubstitution, simulation enhancement, discretizations as neural networks, generative approaches,\nand deep reinforcement learning. This review focuses on deep learning methods rather than ap-\nplications for computational mechanics, thereby enabling researchers to explore this field more\neffectively. As such, the review is not necessarily aimed ...",
     "analysis": {
-      "word_count": 5243,
+      "word_count": 31394,
       "common_terms": [
         [
-          "vector",
-          47
+          "vol",
+          448
         ],
         [
-          "graphic",
-          41
+          "learning",
+          390
         ],
         [
-          "elements",
-          40
+          "neural",
+          325
         ],
         [
-          "attributes",
-          38
+          "pp",
+          270
         ],
         [
-          "model",
-          34
+          "deep",
+          235
         ],
         [
-          "element",
-          34
+          "networks",
+          225
         ],
         [
-          "text",
-          34
+          "mechanics",
+          199
         ],
         [
-          "dataset",
-          33
-        ],
-        [
-          "documents",
-          32
-        ],
-        [
-          "oneshot",
-          32
-        ]
-      ],
-      "references": 76
-    }
-  },
-  {
-    "title": "Graphical Object Detection in Document Images",
-    "summary": "Graphical elements: particularly tables and figures contain a visual summary\nof the most valuable information contained in a document. Therefore,\nlocalization of such graphical objects in the document images is the initial\nstep to understand the content of such graphical objects or document images. In\nthis paper, we present a novel end-to-end trainable deep learning based\nframework to localize graphical objects in the document images called as\nGraphical Object Detection (GOD). Our framework is data-driven and does not\nrequire any heuristics or meta-data to locate graphical objects in the document\nimages. The GOD explores the concept of transfer learning and domain adaptation\nto handle scarcity of labeled training images for graphical object detection\ntask in the document images. Performance analysis carried out on the various\npublic benchmark data sets: ICDAR-2013, ICDAR-POD2017,and UNLV shows that our\nmodel yields promising results as compared to state-of-the-art techniques.",
-    "pdf_url": "http://arxiv.org/pdf/2008.10843v1",
-    "published": "2020-08-25",
-    "authors": [
-      "Ranajit Saha",
-      "Ajoy Mondal",
-      "C. V. Jawahar"
-    ],
-    "category": "cs.CV",
-    "pdf_path": "papers\\2008.10843v1.pdf",
-    "extracted_text": "arXiv:2008.10843v1  [cs.CV]  25 Aug 2020Graphical Object Detection in Document Images\nRanajit Saha, Ajoy Mondal and C V Jawahar\nCentre for Visual Information Technology,\nInternational Institute of Information Technology, Hyder abad, India,\nEmail: ranajit.saha@students.iiit.ac.in, ajoy.mondal@ iiit.ac.in and jawahar@iiit.ac.in\nAbstract \u2014Graphical elements: particularly tables and \ufb01g-\nures contain a visual summary of the most valuable infor-\nmation contained in a document. Therefore, localization of\nsuch graphical objects in the document images is the initial\nstep to understand the content of such graphical objects or\ndocument images. In this paper, we present a novel end-to-en d\ntrainable deep learning based framework to localize graphi cal\nobjects in the document images called as Graphical Object\nDetection ( GOD ). Our framework is data-driven and does not\nrequire any heuristics or meta-data to locate graphical obj ects\nin the document images. The GOD explores the concept of\ntransfer l...",
-    "analysis": {
-      "word_count": 4709,
-      "common_terms": [
-        [
-          "table",
-          85
-        ],
-        [
-          "god",
-          72
-        ],
-        [
-          "cnn",
-          62
-        ],
-        [
-          "detection",
-          54
-        ],
-        [
-          "images",
-          53
+          "physics",
+          192
         ],
         [
           "data",
+          178
+        ],
+        [
+          "methods",
+          168
+        ]
+      ],
+      "references": 953
+    }
+  },
+  {
+    "title": "Residue-based Label Protection Mechanisms in Vertical Logistic Regression",
+    "summary": "Federated learning (FL) enables distributed participants to collaboratively\nlearn a global model without revealing their private data to each other.\nRecently, vertical FL, where the participants hold the same set of samples but\nwith different features, has received increased attention. This paper first\npresents one label inference attack method to investigate the potential privacy\nleakages of the vertical logistic regression model. Specifically, we discover\nthat the attacker can utilize the residue variables, which are calculated by\nsolving the system of linear equations constructed by local dataset and the\nreceived decrypted gradients, to infer the privately owned labels. To deal with\nthis, we then propose three protection mechanisms, e.g., additive noise\nmechanism, multiplicative noise mechanism, and hybrid mechanism which leverages\nlocal differential privacy and homomorphic encryption techniques, to prevent\nthe attack and improve the robustness of the vertical logistic regression.\nmodel. Experimental results show that both the additive noise mechanism and the\nmultiplicative noise mechanism can achieve efficient label protection with only\na slight drop in model testing accuracy, furthermore, the hybrid mechanism can\nachieve label protection without any testing accuracy degradation, which\ndemonstrates the effectiveness and efficiency of our protection techniques",
+    "pdf_url": "http://arxiv.org/pdf/2205.04166v1",
+    "published": "2022-05-09",
+    "authors": [
+      "Juntao Tan",
+      "Lan Zhang",
+      "Yang Liu",
+      "Anran Li",
+      "Ye Wu"
+    ],
+    "category": "cs.LG",
+    "pdf_path": "papers\\2205.04166v1.pdf",
+    "extracted_text": "Residue-based Label Protection Mechanisms in\nVertical Logistic Regression\nJuntao Tany, Lan Zhangy, Yang Liuz, Anran Liy, and Ye Wuz\nySchool of Computer Science and Technology, University of Science and Technology of China, Hefei, China\nzByteDance Security Research Department, Bejing, China\nftjt, anranLig@mail.ustc.edu.cn, zhanglan@ustc.edu.cn, fliuyang.fromthu, wuye.2020 g@bytedance.com\nAbstract \u2014Federated learning (FL) enables distributed partic-\nipants to collaboratively learn a global model without revealing\ntheir private data to each other. Recently, vertical FL, where\nthe participants hold the same set of samples but with dif-\nferent features, has received increased attention. This paper\n\ufb01rst presents one label inference attack method to investigate\nthe potential privacy leakages of the vertical logistic regression\nmodel. Speci\ufb01cally, we discover that the attacker can utilize the\nresidue variables, which are calculated by solving the system of\nlinear equations constructed by local...",
+    "analysis": {
+      "word_count": 6253,
+      "common_terms": [
+        [
+          "model",
+          84
+        ],
+        [
+          "privacy",
           48
         ],
         [
-          "document",
-          47
+          "noise",
+          48
         ],
         [
-          "graphical",
-          43
+          "alice",
+          48
         ],
         [
-          "set",
-          43
+          "residue",
+          45
         ],
         [
-          "object",
+          "auc",
+          42
+        ],
+        [
+          "accuracy",
           41
+        ],
+        [
+          "mechanism",
+          37
+        ],
+        [
+          "training",
+          34
+        ],
+        [
+          "bob",
+          34
         ]
       ],
-      "references": 105
+      "references": 94
     }
   }
 ]

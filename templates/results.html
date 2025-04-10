@@ -1,0 +1,24 @@
+<!-- templates/results.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    {% if papers %}
+        {% for paper in papers %}
+            <div>
+                <h2><a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a></h2>
+                <p><strong>Authors:</strong> {{ paper.authors }}</p>
+                <p><strong>Summary:</strong> {{ paper.summary }}</p>
+            </div>
+            <hr>
+        {% endfor %}
+    {% else %}
+        <p>No papers found.</p>
+    {% endif %}
+    <br>
+    <a href="/">🔙 Back to search</a>
+</body>
+</html>

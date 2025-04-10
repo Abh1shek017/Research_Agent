@@ -1,0 +1,23 @@
+<!-- templates/search.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Research Agent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Search for Research Papers</h1>
+    <form method="POST">
+        <input type="text" name="query" placeholder="Enter a topic" required>
+        <select name="category">
+            <option value="cs.AI">AI</option>
+            <option value="cs.LG">Machine Learning</option>
+            <option value="cs.CV">Computer Vision</option>
+            <!-- Add more categories if needed -->
+        </select>
+        <input type="number" name="num_papers" min="1" max="50" value="5" 
+        placeholder="Number of papers" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
