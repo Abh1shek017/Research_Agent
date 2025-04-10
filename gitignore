@@ -1,5 +1,15 @@
+venv/
 __pycache__/
 *.pyc
-papers.json
+*.pyo
+*.pyd
 .env
-*.log
+*.dll
+*.lib
+*.bin
+*.so
+*.egg-info/
+*.h5
+*.pt
+*.pth
+*.tar.gz
