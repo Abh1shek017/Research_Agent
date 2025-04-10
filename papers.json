@@ -1,0 +1,120 @@
+[
+  {
+    "title": "CanvasVAE: Learning to Generate Vector Graphic Documents",
+    "summary": "Vector graphic documents present visual elements in a resolution free,\ncompact format and are often seen in creative applications. In this work, we\nattempt to learn a generative model of vector graphic documents. We define\nvector graphic documents by a multi-modal set of attributes associated to a\ncanvas and a sequence of visual elements such as shapes, images, or texts, and\ntrain variational auto-encoders to learn the representation of the documents.\nWe collect a new dataset of design templates from an online service that\nfeatures complete document structure including occluded elements. In\nexperiments, we show that our model, named CanvasVAE, constitutes a strong\nbaseline for generative modeling of vector graphic documents.",
+    "pdf_url": "http://arxiv.org/pdf/2108.01249v1",
+    "published": "2021-08-03",
+    "authors": [
+      "Kota Yamaguchi"
+    ],
+    "category": "cs.CV",
+    "pdf_path": "papers\\2108.01249v1",
+    "extracted_text": "CanvasVAE: Learning to Generate Vector Graphic Documents\nKota Yamaguchi\nCyberAgent\nyamaguchi kota@cyberagent.co.jp\nAbstract\nVector graphic documents present visual elements in a\nresolution free, compact format and are often seen in cre-\native applications. In this work, we attempt to learn a gen-\nerative model of vector graphic documents. We define vec-\ntor graphic documents by a multi-modal set of attributes\nassociated to a canvas and a sequence of visual elements\nsuch as shapes, images, or texts, and train variational auto-\nencoders to learn the representation of the documents. We\ncollect a new dataset of design templates from an online\nservice that features complete document structure includ-\ning occluded elements. In experiments, we show that our\nmodel, named CanvasVAE, constitutes a strong baseline for\ngenerative modeling of vector graphic documents.\n1. Introduction\nIn creative workflows, designers work on visual presen-\ntation via vector graphic formats. 2D vector graphics rep-\nr...",
+    "analysis": {
+      "word_count": 5243,
+      "common_terms": [
+        [
+          "vector",
+          47
+        ],
+        [
+          "graphic",
+          41
+        ],
+        [
+          "elements",
+          40
+        ],
+        [
+          "attributes",
+          38
+        ],
+        [
+          "model",
+          34
+        ],
+        [
+          "element",
+          34
+        ],
+        [
+          "text",
+          34
+        ],
+        [
+          "dataset",
+          33
+        ],
+        [
+          "documents",
+          32
+        ],
+        [
+          "oneshot",
+          32
+        ]
+      ],
+      "references": 76
+    }
+  },
+  {
+    "title": "Graphical Object Detection in Document Images",
+    "summary": "Graphical elements: particularly tables and figures contain a visual summary\nof the most valuable information contained in a document. Therefore,\nlocalization of such graphical objects in the document images is the initial\nstep to understand the content of such graphical objects or document images. In\nthis paper, we present a novel end-to-end trainable deep learning based\nframework to localize graphical objects in the document images called as\nGraphical Object Detection (GOD). Our framework is data-driven and does not\nrequire any heuristics or meta-data to locate graphical objects in the document\nimages. The GOD explores the concept of transfer learning and domain adaptation\nto handle scarcity of labeled training images for graphical object detection\ntask in the document images. Performance analysis carried out on the various\npublic benchmark data sets: ICDAR-2013, ICDAR-POD2017,and UNLV shows that our\nmodel yields promising results as compared to state-of-the-art techniques.",
+    "pdf_url": "http://arxiv.org/pdf/2008.10843v1",
+    "published": "2020-08-25",
+    "authors": [
+      "Ranajit Saha",
+      "Ajoy Mondal",
+      "C. V. Jawahar"
+    ],
+    "category": "cs.CV",
+    "pdf_path": "papers\\2008.10843v1",
+    "extracted_text": "arXiv:2008.10843v1  [cs.CV]  25 Aug 2020Graphical Object Detection in Document Images\nRanajit Saha, Ajoy Mondal and C V Jawahar\nCentre for Visual Information Technology,\nInternational Institute of Information Technology, Hyder abad, India,\nEmail: ranajit.saha@students.iiit.ac.in, ajoy.mondal@ iiit.ac.in and jawahar@iiit.ac.in\nAbstract \u2014Graphical elements: particularly tables and \ufb01g-\nures contain a visual summary of the most valuable infor-\nmation contained in a document. Therefore, localization of\nsuch graphical objects in the document images is the initial\nstep to understand the content of such graphical objects or\ndocument images. In this paper, we present a novel end-to-en d\ntrainable deep learning based framework to localize graphi cal\nobjects in the document images called as Graphical Object\nDetection ( GOD ). Our framework is data-driven and does not\nrequire any heuristics or meta-data to locate graphical obj ects\nin the document images. The GOD explores the concept of\ntransfer l...",
+    "analysis": {
+      "word_count": 4709,
+      "common_terms": [
+        [
+          "table",
+          85
+        ],
+        [
+          "god",
+          72
+        ],
+        [
+          "cnn",
+          62
+        ],
+        [
+          "detection",
+          54
+        ],
+        [
+          "images",
+          53
+        ],
+        [
+          "data",
+          48
+        ],
+        [
+          "document",
+          47
+        ],
+        [
+          "graphical",
+          43
+        ],
+        [
+          "set",
+          43
+        ],
+        [
+          "object",
+          41
+        ]
+      ],
+      "references": 105
+    }
+  }
+]
